@@ -1,0 +1,16 @@
+#Create webapp with az cli
+WEB_JOB_TYPE=triggered
+WEB_JOB_NAME=ConsoleApp
+WEB_JOB_File_Name=ConsoleApp.zip
+WEB_JOB_DIR=App_Data//jobs//${WEB_JOB_TYPE}//${WEB_JOB_NAME}
+mkdir -p $WEB_JOB_DIR
+cp ./CSharpLongRunningJob/bin/Debug/net5.0/* $WEB_JOB_DIR
+zip -r $WEB_JOB_File_Name App_Data
+rm -r App_Data
+
+az webapp deployment source config-zip \
+  --resource-group above-the-clouds-rg \
+  --name above-the-clouds-web-9243 \
+  --src $WEB_JOB_File_Name
+
+rm $WEB_JOB_File_Name

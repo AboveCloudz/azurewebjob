@@ -1,0 +1,15 @@
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/bin/Debug/net5.0/CSharpLongRunningJob.deps.json
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/bin/Debug/net5.0/CSharpLongRunningJob.runtimeconfig.json
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/bin/Debug/net5.0/CSharpLongRunningJob.runtimeconfig.dev.json
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/bin/Debug/net5.0/CSharpLongRunningJob.dll
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/bin/Debug/net5.0/ref/CSharpLongRunningJob.dll
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/bin/Debug/net5.0/CSharpLongRunningJob.pdb
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.csprojAssemblyReference.cache
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.AssemblyInfoInputs.cache
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.AssemblyInfo.cs
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.csproj.CoreCompileInputs.cache
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.dll
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/ref/CSharpLongRunningJob.dll
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.pdb
+/Users/shahabjamshidi/AzureWebjobs/CSharpLongRunningJob/obj/Debug/net5.0/CSharpLongRunningJob.genruntimeconfig.cache

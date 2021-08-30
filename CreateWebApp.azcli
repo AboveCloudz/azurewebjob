@@ -1,0 +1,30 @@
+# Get lis of Location
+az account list-locations \
+  --query "[].{Name: name, DisplayName: displayName}" \
+  --output table
+
+# Variables
+LOCATION=australiaeast
+APP_SERVICE_NAME=above-the-clouds
+APP_SUFFIX=$RANDOM
+WEB_APP_NAME=${APP_SERVICE_NAME}-web-${APP_SUFFIX}
+RESOURCE_GROUP_NAME=${APP_SERVICE_NAME}-rg
+
+#Create Azure Resource Group
+az group create --name $RESOURCE_GROUP_NAME --location $LOCATION
+
+#Create App Service Plan
+az appservice plan create \
+  --name $APP_SERVICE_NAME \
+  --resource-group $RESOURCE_GROUP_NAME \
+  --sku B1 
+
+#Create WEB App on Windows Plan
+az webapp create \
+  --name $WEB_APP_NAME \
+  --resource-group $RESOURCE_GROUP_NAME \
+  --plan $APP_SERVICE_NAME \
+  --runtime "DOTNET|5.0"
+
+#Delete resources 
+az group delete --name RESOURCE_GROUP_NAME --yes
